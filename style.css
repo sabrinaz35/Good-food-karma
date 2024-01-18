@@ -106,7 +106,6 @@ div p {
 
 div img:nth-child(1) {
     width: 100vw;
-    align-items: flex-end;
     margin-top: 1em;
 }
 
