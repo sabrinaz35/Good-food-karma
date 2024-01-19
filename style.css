@@ -38,7 +38,7 @@ body p {
 }
 
 h1, h2, h3 {
-    font-family: 'ChunkFive';
+    font-family: 'ChunkFive', 'Rowdies';
     margin-bottom: 0.5em;
     text-align: center;
     width: 100vw;
@@ -71,7 +71,7 @@ article:nth-child(1) {
 
 article:nth-child(1) > p {
     width: 60vw;
-    margin: 10px 0 10px 0;
+    margin: 10px 0 10px 20px;
 }
 
 article:nth-child(2) > p {
@@ -90,23 +90,30 @@ article h1 {
 }
 
 div {
-    display: block;
-    justify-content: center;
+    display: flex;
+    justify-content: flex-start;
     position: relative;
-    text-align: center;
+    flex-wrap: wrap;
 }
 
 div p {
     position: absolute;
-    top: 30%;
-    left: 50%;
+    top: 40%;
+    left: 62%;
     transform: translate(-50%, -50%);
     font-size: 13px;
+    width: 55vw;
 }
 
 div img:nth-child(1) {
-    width: 100vw;
+    width: 80vw;
+    height: 25vh;
     margin-top: 1em;
+    margin-left: 20vw;
+}
+
+div img:nth-child(2) {
+    margin-left: 10vw;
 }
 
 .balk {
